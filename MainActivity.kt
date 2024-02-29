@@ -177,7 +177,7 @@ fun Exam(modifier: Modifier=Modifier)
             Image(painter = painterResource(R.drawable.dice_1), contentDescription = "alte" )
             Spacer(modifier = Modifier.height(120.dp))
 
-            Button(onClick = { showNotification(context,"helo","Happy birthday arani") }) {
+            Button(onClick = { showNotification(context,"helo","Happy birthday Desh bros") }) {
                 Text(text = "Roll")
             }
         }
